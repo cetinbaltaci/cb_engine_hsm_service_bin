@@ -1,0 +1,16 @@
+HOME = .
+
+openssl_conf = default_conf
+
+[default_conf]
+engines = engine_section
+
+[engine_section]
+cb_engine = cb_engine_section
+
+[cb_engine_section]
+engine_id = cb_engine
+dynamic_path = /usr/lib/x86_64-linux-gnu/engines-1.1/cb_engine.so
+default_algorithms = ALL
+
+#init = 0
