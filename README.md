@@ -1,5 +1,5 @@
 
-# CB Engine & HSM Service
+# CB Openssl Engine & Nginx HSM Service
 
 This project includes HSM as a service (SoftHSM + Nginx Module) and Web Server (Nginx + OpenSSL_Engine). SoftHSM (disk/keystore/tokens) has PrivateKeys (server and ca) in it. PublicKeys(server.crt, ca.crt) are also found in disk/etc/certs.
 
